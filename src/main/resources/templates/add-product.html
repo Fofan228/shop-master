@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Добавление товара</title>
+    <style>
+        #container {
+            margin: 20vh auto;
+            width: 300px;
+            height: 60vh;
+            background-color: #BBB;
+            border: 2px solid #AAA;
+            border-radius: 10px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        form > * {
+            display: block
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <h1>Добавить товар</h1>
+    <form method="post">
+        <input id="productName" name="productName" placeholder="Название">
+        <button id="button_add">Добавить</button>
+    </form>
+    <button id="back-to-list">Вернуться к списку</button>
+</div>
+</body>
+<script src="adding-script.js"></script>
+</html>

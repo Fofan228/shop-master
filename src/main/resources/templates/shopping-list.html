@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Список товаров</title>
+    <script src="main.js"></script>
+    <style>
+        #products > div {
+            display: flex;
+            flex-align: row;
+            justify-content: space-around;
+            margin: 5px 0;
+            background-color: #BBB;
+            border: 2px solid #AAA;
+            border-radius: 4px
+        }
+    </style>
+</head>
+<body>
+    <h1>Список</h1>
+    <div id="products">
+        <div>
+            <p>Название</p>
+            <p>Удалить</p>
+            <p>Куплен?</p>
+        </div>
+    </div>
+    <button id="btn_to_add">Добавить новый товар</button>
+</body>
+</html>
